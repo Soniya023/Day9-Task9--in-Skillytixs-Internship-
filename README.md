@@ -9,20 +9,8 @@ Analyze monthly sales trends using SQL to understand revenue patterns and peak m
 - Calculated total revenue (`SUM(total_sale)`) and order count (`COUNT(DISTINCT transactions_id)`).
 - Sorted results chronologically and identified top revenue months.
 
-## Results (Example)
-| Month-Year | Total Revenue | Total Orders |
-|-----------|---------------|--------------|
-| 2023-01  | 45,600.00     | 320          |
-| 2023-02  | 38,950.00     | 280          |
-| 2023-03  | 50,120.00     | 355          |
-| ...      | ...           | ...          |
-
-**Top 3 Revenue Months:**  
-| Month-Year | Total Revenue |
-|-----------|---------------|
-| 2023-05  | 60,430.00     |
-| 2023-08  | 59,850.00     |
-| 2023-11  | 58,900.00     |
+## Results 
+<img width="309" height="147" alt="top3_revenue_months_2023" src="https://github.com/user-attachments/assets/fc4b6490-86e9-48ec-9304-4087f8a871f4" />
 
 ## Insights
 - Peak sales occurred in **May, August, and November**.  
